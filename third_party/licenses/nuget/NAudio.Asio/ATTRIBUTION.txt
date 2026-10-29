@@ -1,0 +1,5 @@
+NAudio.Asio 2.2.1
+© Mark Heath 2023
+Authors: Mark Heath
+License: MIT
+https://www.nuget.org/packages/NAudio.Asio/2.2.1

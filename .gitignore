@@ -1,0 +1,26 @@
+.tools/
+artifacts/
+/docs/evidence/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.mp4
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.trx
+*.dmp
+*.zip
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+# Local research history and device evidence are not publication assets.
+/plan.md
+/docs/validation/
+/docs/specs/
+/docs/feature-status.md

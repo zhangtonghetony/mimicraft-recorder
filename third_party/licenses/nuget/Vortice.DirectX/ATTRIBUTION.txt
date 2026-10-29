@@ -1,0 +1,5 @@
+Vortice.DirectX 3.8.3
+Copyright (c) Amer Koleci and Contributors
+Authors: Amer Koleci
+License: MIT
+https://www.nuget.org/packages/Vortice.DirectX/3.8.3

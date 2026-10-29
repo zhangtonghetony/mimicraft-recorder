@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="650" viewBox="0 0 1440 650" role="img" aria-labelledby="title desc">
+  <title id="title">Mimicraft Recorder 功能框图</title>
+  <desc id="desc">采集画面与声音，录制时批注和摄像头讲解，完成后剪辑、导出、推流或本地管理。</desc>
+  <rect width="1440" height="650" rx="24" fill="#f5f6ef"/>
+  <g font-family="Segoe UI,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+    <rect x="480" y="28" width="480" height="84" rx="16" fill="#203f35"/>
+    <text x="720" y="65" text-anchor="middle" fill="#fff" font-size="28" font-weight="600">Mimicraft Recorder</text>
+    <text x="720" y="92" text-anchor="middle" fill="#c8dac9" font-size="17">录制 · 讲解 · 整理 · 带走</text>
+    <path d="M720 112V145M148 145H1292M148 145V175M434 145V175M720 145V175M1006 145V175M1292 145V175" fill="none" stroke="#a5baa4" stroke-width="3"/>
+    <g fill="#fff" stroke="#d6dfd1" stroke-width="1.5">
+      <rect x="22" y="175" width="252" height="335" rx="16"/>
+      <rect x="308" y="175" width="252" height="335" rx="16"/>
+      <rect x="594" y="175" width="252" height="335" rx="16"/>
+      <rect x="880" y="175" width="252" height="335" rx="16"/>
+      <rect x="1166" y="175" width="252" height="335" rx="16"/>
+    </g>
+    <g fill="#35614f" font-size="27" font-weight="600" text-anchor="middle">
+      <text x="148" y="224">采集</text><text x="434" y="224">录制现场</text><text x="720" y="224">轻量剪辑</text><text x="1006" y="224">网络收发</text><text x="1292" y="224">本地管理</text>
+    </g>
+    <g fill="#45594d" font-size="19" text-anchor="middle">
+      <text x="148" y="280">显示器 / 窗口 / 选区</text><text x="148" y="323">系统声音 / 麦克风</text><text x="148" y="366">双路混音 / 纯音频</text><text x="148" y="409">软硬件编码</text><text x="148" y="452">暂停 / 倒数 / 预约</text>
+      <text x="434" y="280">摄像头画中画 / 分屏</text><text x="434" y="323">画笔 / 箭头 / 文字</text><text x="434" y="366">区域截图贴图</text><text x="434" y="409">聚光 / 放大 / 输入标记</text><text x="434" y="452">快捷控制 / 托盘</text>
+      <text x="720" y="280">裁剪 / 分割 / 删除</text><text x="720" y="323">多文件排序与合并</text><text x="720" y="366">变速 / 画面裁剪</text><text x="720" y="409">转码 / GIF</text><text x="720" y="452">批量图片 / 文字标记</text>
+      <text x="1006" y="280">桌面实时推流</text><text x="1006" y="323">视频列表 / 循环推流</text><text x="1006" y="366">最多 3 个目的端</text><text x="1006" y="409">网络流接收存盘</text><text x="1006" y="452">UDP 本地 / 局域网</text>
+      <text x="1292" y="280">本地录像与播放</text><text x="1292" y="323">自选保存目录</text><text x="1292" y="366">另存导出，保留原件</text><text x="1292" y="409">恢复未完成材料</text><text x="1292" y="452">配置 / 日志 / 诊断</text>
+    </g>
+    <rect x="258" y="553" width="924" height="58" rx="29" fill="#e5edde"/>
+    <text x="720" y="590" text-anchor="middle" fill="#35614f" font-size="22">选择画面与声音 → 录制与讲解 → 整理与导出 → 保存到本机</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/Mimicraft.Recorder.Core/Mimicraft.Recorder.Core.csproj" />
+  <Project Path="src/Mimicraft.Recorder.Windows/Mimicraft.Recorder.Windows.csproj" />
+  <Project Path="src/Mimicraft.Recorder/Mimicraft.Recorder.csproj" />
+  <Project Path="tests/Unit/Unit.csproj" />
+  <Project Path="tests/DesktopUI/DesktopUI.csproj" />
+  <Project Path="tests/MediaIntegration/MediaIntegration.csproj" />
+</Solution>

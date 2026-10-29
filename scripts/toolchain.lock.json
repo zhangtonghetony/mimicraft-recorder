@@ -1,0 +1,17 @@
+{
+  "sdk": "10.0.403",
+  "tools": [
+    {
+      "name": "dotnet",
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.403/dotnet-sdk-10.0.403-win-x64.zip",
+      "hash": "7a114c318fa7f1d9822991b534b2814d0e78386ceda816b371f5141acefe741d87ccb606ede06cadac8f9ac5070e32b708a67bbd1619ff5e5a7858a27874ef48",
+      "algorithm": "sha512"
+    },
+    {
+      "name": "ffmpeg",
+      "url": "https://github.com/zhangtonghetony/mimicraft-recorder/releases/download/v0.3.2/FFmpeg-n8.1.3-24-g92611900bb-win64-lgpl-shared.zip",
+      "hash": "09772a308ccee4304e93ad1137d513e16710e83f56161bc626e2df4e5d3b6b5b",
+      "algorithm": "sha256"
+    }
+  ]
+}

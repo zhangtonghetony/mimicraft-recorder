@@ -1,0 +1,21 @@
+{
+  "ffmpeg_commit": "92611900bb112123e9bf997fdcc2d78e4c4922fc",
+  "build_commit": "b4a2b1d7cc241786eb8e2b588a7ade40cad48bbd",
+  "files": [
+    {
+      "file": "FFmpeg-92611900bb112123e9bf997fdcc2d78e4c4922fc.tar.gz",
+      "url": "https://codeload.github.com/FFmpeg/FFmpeg/tar.gz/92611900bb112123e9bf997fdcc2d78e4c4922fc",
+      "sha256": "12c02b1eaf52ec310acae385e76810f4bb71bacc21cacc01d6d9e95ac3b83bbb"
+    },
+    {
+      "file": "FFmpeg-Builds-b4a2b1d7cc241786eb8e2b588a7ade40cad48bbd.zip",
+      "url": "https://codeload.github.com/BtbN/FFmpeg-Builds/zip/b4a2b1d7cc241786eb8e2b588a7ade40cad48bbd",
+      "sha256": "823d610fcd33a0de6983d31198b412b92a12d9a552da75f64bf94a41330f07f2"
+    },
+    {
+      "file": "GPL-3.0.txt",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    }
+  ]
+}

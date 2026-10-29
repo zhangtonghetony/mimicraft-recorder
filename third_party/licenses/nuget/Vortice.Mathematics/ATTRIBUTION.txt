@@ -1,0 +1,5 @@
+Vortice.Mathematics 2.1.0
+Copyright (c) Amer Koleci and Contributors
+Authors: Amer Koleci
+License: MIT
+https://www.nuget.org/packages/Vortice.Mathematics/2.1.0
