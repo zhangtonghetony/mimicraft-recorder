@@ -12,6 +12,8 @@ $env:DOTNET_ROOT = (Resolve-Path .tools/dotnet).Path
 
 安装脚本使用`scripts/toolchain.lock.json`中的固定地址和摘要，下载到`.tools/`，不修改系统PATH。SDK版本与`global.json`一致；NuGet版本由各项目`packages.lock.json`锁定。已有完整环境可直接使用自己的SDK；媒体工具可通过`MIMICRAFT_FFMPEG_DIR`指定，但不同构建的滤镜/编码器不一定齐全。
 
+普通开发使用`packages.lock.json`；自包含单文件发布使用单独的`packages.publish.lock.json`，由构建脚本启用。两套图分开，避免发布时引入的RID/链接器包破坏下一次开发还原。正常构建不会自动重算这些锁文件。
+
 NuGet需要联网还原。Windows SDK托管引用随目标框架还原；本项目验证环境另外装有Windows SDK26100。缺少引用时先核对SDK/目标框架，不要把API最低版本当作整个依赖链的系统支持范围。
 
 ## 预览

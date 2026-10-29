@@ -2,12 +2,6 @@
   "version": 1,
   "dependencies": {
     "net10.0-windows10.0.26100": {
-      "Microsoft.NET.ILLink.Tasks": {
-        "type": "Direct",
-        "requested": "[10.0.14, )",
-        "resolved": "10.0.14",
-        "contentHash": "YlTamXppEQls6DYWt7RdUuwWDb0lyw/vXCaGeQpLCpsLmfwGuCkOz/vIGgMTV7ECsJcavkCOkxZXv9s8rdAHkQ=="
-      },
       "NAudio": {
         "type": "Transitive",
         "resolved": "2.2.1",
@@ -123,7 +117,6 @@
           "Vortice.Direct3D11": "[3.8.3, )"
         }
       }
-    },
-    "net10.0-windows10.0.26100/win-x64": {}
+    }
   }
 }

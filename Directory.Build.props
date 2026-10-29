@@ -4,6 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <NuGetLockFilePath Condition="'$(MimicraftPortablePublish)' == 'true'">$(MSBuildProjectDirectory)/packages.publish.lock.json</NuGetLockFilePath>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
 </Project>

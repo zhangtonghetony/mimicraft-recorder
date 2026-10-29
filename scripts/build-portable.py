@@ -9,7 +9,7 @@ version=ET.parse(ROOT/'src/Mimicraft.Recorder/Mimicraft.Recorder.csproj').findte
 destination=ROOT/'artifacts/packages'/('MimicraftRecorder-'+version+'-win-x64-'+stamp)
 destination.mkdir(parents=True,exist_ok=False)
 env=dict(os.environ,DOTNET_ROOT=str(SDK.parent),DOTNET_CLI_TELEMETRY_OPTOUT='1')
-subprocess.run([str(SDK),'publish',str(ROOT/'src/Mimicraft.Recorder/Mimicraft.Recorder.csproj'),'-c','Release','-r','win-x64','--self-contained','true','-p:PublishSingleFile=true','-p:IncludeNativeLibrariesForSelfExtract=true','-p:DebugType=None','-p:DebugSymbols=false','-o',str(destination),'-v','minimal'],cwd=ROOT,env=env,check=True)
+subprocess.run([str(SDK),'publish',str(ROOT/'src/Mimicraft.Recorder/Mimicraft.Recorder.csproj'),'-c','Release','-r','win-x64','--self-contained','true','-p:PublishSingleFile=true','-p:MimicraftPortablePublish=true','-p:RestoreLockedMode=true','-p:IncludeNativeLibrariesForSelfExtract=true','-p:DebugType=None','-p:DebugSymbols=false','-o',str(destination),'-v','minimal'],cwd=ROOT,env=env,check=True)
 media=next((ROOT/'.tools/ffmpeg').glob('*/bin/ffmpeg.exe')).parent
 shutil.copytree(media,destination/'tools')
 notices=destination/'Notices';notices.mkdir()
